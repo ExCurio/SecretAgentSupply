@@ -1,4 +1,161 @@
+/*Universal Styles*/
+
 html, body {
 	font-size: 18px;
 	font-family: Helvetica;
 }
+
+.site-container {
+	width: 960px;
+	margin: auto;
+}
+
+div {
+	border: 1px solid black;
+}
+
+img {
+	border: 1px solid black;
+}
+
+/*Header Styles*/
+
+header {
+	background-color: black;
+}
+
+.logo img {
+	height: 1.5rem;
+	vertical-align: middle;
+	margin-left: 0.5rem;
+	margin-right: 1rem;
+}
+
+.logo span {
+	display: inline-block;
+	color: white;
+	margin-top: 0.66rem;
+	margin-bottom: 0.66rem;
+}
+
+
+/*Banner Styles*/
+
+.banner {
+	background-image: url("../images/banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 25rem;
+}
+
+.banner-text {
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	width: 20rem;
+	margin-top: 9rem;
+}
+
+.banner-text h3 {
+	font-size: 1rem;
+	margin-top: 2rem;
+	margin-left: 3rem;
+}
+
+.banner-text h1 {
+	font-size: 2rem;
+	margin-top: 0.25rem;
+	margin-left: 3rem;
+	margin-bottom: 2rem;
+}
+
+
+/*Navigation Styles*/
+
+nav {
+	background-color: firebrick;
+	margin: auto;
+}
+
+
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-item {
+	color: white;
+	margin-bottom: 0.75rem;
+	margin-top: 0.75rem;
+}
+
+
+/*Products Styles*/
+
+.products {
+	display: flex;
+	justify-content: space-between;
+	margin: 3rem 0 0 0;
+}
+
+.product {
+	width: 30%;
+}
+
+
+.product-image {
+	border: 4px solid black;
+	height: 9rem;
+	padding: 2rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product-image img {
+	max-width: 9rem;
+}
+
+.product-text {
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+
+/*Location-Hours Styles*/
+
+.details-main {
+	display: flex;
+	justify-content: space-between;
+	margin: 3rem 0 0 0;
+}
+
+.details {
+	width: 35%;
+}
+
+.details-one {
+	display: block;
+	background-color: black;
+	color: white;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+
+/*Footer Styles*/
+
+footer {
+	display: flex;
+	align-content: center;
+	background-color: black;
+	color: white;
+	height: 5rem;
+	margin-top: 4rem; 
+}
+
