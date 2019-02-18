@@ -10,6 +10,13 @@ html, body {
 	margin: auto;
 }
 
+@media only screen and (max-width: 1024px) {
+	.site-container {
+		width: 100%;
+		margin: auto;
+	}
+}
+
 
 /*Header Styles*/
 
@@ -61,6 +68,31 @@ header {
 	margin-top: 0.25rem;
 }
 
+@media only screen and (max-width: 1024px) {
+	.banner-text h1 {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.banner {
+		height: 15rem;
+	}
+
+	.banner-text {
+		top: 10rem;
+		padding: 1rem 2rem;
+		width: 100%
+	}
+
+	.banner-text h3 {
+		font-size: 0.77rem;
+	}
+
+	.banner-text h1 {
+		font-size: 1rem;
+	}
+}
 
 /*Navigation Styles*/
 
@@ -77,6 +109,20 @@ nav ul {
 	padding: 0.75rem 0;
 }
 
+.mobile-nav {
+	display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+	nav ul {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: block;
+		text-align: center;
+	}
+}
 
 /*Products Styles*/
 
@@ -112,6 +158,27 @@ nav ul {
 	text-align: center;
 }
 
+@media only screen and (max-width: 1024px) {
+	.product {
+		width: 47%;
+	}
+
+	.product.glasses {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.product {
+		width: 90%;
+		margin: auto;
+	}
+
+	.product.watch {
+		display: none;
+	}
+}
+
 
 /*Location-Hours Styles*/
 
@@ -134,6 +201,16 @@ nav ul {
 	padding-bottom: 1rem;
 }
 
+@media only screen and (max-width: 470px) {
+	.details-main {
+		flex-wrap: wrap;
+	}
+
+	.details {
+		width: 90%;
+		margin: 0.5rem auto;
+	}
+}
 
 /*Footer Styles*/
 
@@ -145,4 +222,15 @@ footer {
 	height: 5rem;
 	margin-top: 4rem; 
 }
+
+@media only screen and (max-width: 470px) {
+	footer {
+		text-align: center;
+	}
+}
+
+
+
+
+
 
