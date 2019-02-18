@@ -10,13 +10,6 @@ html, body {
 	margin: auto;
 }
 
-div {
-	border: 1px solid black;
-}
-
-img {
-	border: 1px solid black;
-}
 
 /*Header Styles*/
 
@@ -54,20 +47,18 @@ header {
 	color: white;
 	background-color: black;
 	width: 20rem;
-	margin-top: 9rem;
+	padding: 2rem 3rem;
+	position: relative;
+	top: 9rem;
 }
 
 .banner-text h3 {
 	font-size: 1rem;
-	margin-top: 2rem;
-	margin-left: 3rem;
 }
 
 .banner-text h1 {
 	font-size: 2rem;
 	margin-top: 0.25rem;
-	margin-left: 3rem;
-	margin-bottom: 2rem;
 }
 
 
